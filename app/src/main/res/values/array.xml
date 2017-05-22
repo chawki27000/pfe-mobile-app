@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="age_array">
+        <item>Année</item>
+        <item>Mois</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Masculin</item>
+        <item>Féminin</item>
+    </string-array>
+
+    <string-array name="ta_array">
+        <item>Entre 100 et 150</item>
+        <item>Supérieur à 150</item>
+        <item>Entre 60 et 100</item>
+        <item>Inférieur à 100</item>
+    </string-array>
+
+    <string-array name="durese_array">
+        <item>Polyurie</item>
+        <item>Oligurie</item>
+        <item>Anurie</item>
+    </string-array>
+
+    <string-array name="cardiac_array">
+        <item>Normal</item>
+        <item>Abnormal</item>
+    </string-array>
+
+    <string-array name="amplitude_array">
+        <item>Normal</item>
+        <item>Decreased</item>
+        <item>Increased</item>
+        <item>Null</item>
+    </string-array>
+
+    <string-array name="spo2_array">
+        <item>Supérieur à 95% (Bonne)</item>
+        <item>95%-90% (insuffisance respiratoire)</item>
+        <item>Inférieur à 90% (détresse respiratoire)</item>
+    </string-array>
+
+    <string-array name="rythme_array">
+        <item>Normal</item>
+        <item>Sighs</item>
+        <item>Periodic</item>
+        <item>irregular</item>
+    </string-array>
+
+    <string-array name="bruit_array">
+        <item>Absent</item>
+        <item>Stridor</item>
+        <item>Cornage</item>
+        <item>Wheezing</item>
+    </string-array>
+
+    <string-array name="toux_array">
+        <item>Absent</item>
+        <item>Sèche</item>
+        <item>Aiguë</item>
+    </string-array>
+
+</resources>
