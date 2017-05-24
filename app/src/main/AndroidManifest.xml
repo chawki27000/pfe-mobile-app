@@ -25,6 +25,13 @@
             android:label="@string/title_activity_clinical"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".StableActivity" >
+        </activity>
     </application>
 
 </manifest>
