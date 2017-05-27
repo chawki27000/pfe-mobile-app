@@ -6,5 +6,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_clinical">ClinicalActivity</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="error_login">"Nom d'utilisateur ou mot de passe erroné"</string>
 
 </resources>
