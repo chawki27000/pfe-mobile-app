@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#3498db"
-                android:orientation="vertical"
-                android:scrollbarAlwaysDrawVerticalTrack="true">
+<RelativeLayout
+    android:id="@+id/myCoordinatorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3498db"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
 
     <TextView
         android:id="@+id/login_title"
@@ -15,8 +17,8 @@
         android:gravity="center_horizontal"
         android:text="Alpha"
         android:textColor="#fff"
-        android:textStyle="bold"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        android:textStyle="bold"/>
 
     <RelativeLayout
         android:layout_width="fill_parent"
@@ -46,9 +48,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:drawableTint="#FF4081"
-                    android:singleLine="true"
                     android:hint="Nom d'utilisateur"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"/>
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
@@ -60,11 +62,11 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:singleLine="true"
-
                     android:drawableTint="#FF4081"
+
                     android:hint="Mot de passe"
-                    android:inputType="textPassword" />
+                    android:inputType="textPassword"
+                    android:singleLine="true"/>
             </android.support.design.widget.TextInputLayout>
 
             <TextView
@@ -72,7 +74,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:paddingTop="5dp"
-                android:text="Demander un compte ?" />
+                android:text="Demander un compte ?"/>
 
 
             <Button
@@ -84,7 +86,7 @@
                 android:text="Connexion"
                 android:textAllCaps="false"
                 android:textColor="#fff"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
         </LinearLayout>
     </RelativeLayout>
 

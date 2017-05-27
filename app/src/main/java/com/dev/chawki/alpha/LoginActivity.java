@@ -126,7 +126,9 @@ public class LoginActivity extends AppCompatActivity {
                     startActivity(intent);
 
                 } else {
-
+                    Snackbar.make(findViewById(R.id.myCoordinatorLayout), "Nom d'utilisateur ou mot de passe erroné",
+                            Snackbar.LENGTH_LONG)
+                            .show();
                 }
 
 
