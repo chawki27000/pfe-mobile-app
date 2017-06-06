@@ -7,5 +7,7 @@
     <string name="title_activity_clinical">ClinicalActivity</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="error_login">"Nom d'utilisateur ou mot de passe erroné"</string>
+    <string name="item_logout">Logout</string>
+    <string name="drawer_item_settings">Settings</string>
 
 </resources>
