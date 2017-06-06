@@ -31,6 +31,9 @@ public class CaseFragment extends Fragment {
 
         recyclerView = (RecyclerView) view.findViewById(R.id.rvCase);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+
+        updateUI();
+
         return view;
     }
 
@@ -69,7 +72,7 @@ public class CaseFragment extends Fragment {
         @Override
         public void onBindViewHolder(CaseHolder holder, int position) {
             Case aCase = mCases.get(position);
-            holder.mTitleTextView.setText(aCase.getAge());
+            holder.mTitleTextView.setText(String.valueOf(aCase.getAge()));
         }
 
         @Override
