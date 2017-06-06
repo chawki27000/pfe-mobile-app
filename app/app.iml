@@ -105,6 +105,7 @@
     <orderEntry type="library" exported="" name="iconics-core-2.8.4" level="project" />
     <orderEntry type="library" exported="" name="okio-1.13.0" level="project" />
     <orderEntry type="library" exported="" name="cardview-v7-23.0.1" level="project" />
+    <orderEntry type="library" exported="" name="MPAndroidChart-v3.0.2" level="project" />
     <orderEntry type="library" exported="" name="transition-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="materialdrawer-5.9.1" level="project" />
     <orderEntry type="library" exported="" name="design-25.3.1" level="project" />
