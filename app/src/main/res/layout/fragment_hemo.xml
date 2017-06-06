@@ -32,6 +32,7 @@
             android:layout_marginTop="5dp">
 
             <EditText
+                android:id="@+id/edittext_pouls"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerHorizontal="true"
@@ -55,6 +56,7 @@
                 android:text="TA (mmHg)"/>
 
             <Spinner
+                android:id="@+id/spinner_ta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/ta_array"/>
@@ -62,6 +64,7 @@
         </LinearLayout>
 
         <CheckBox
+            android:id="@+id/checkbox_marbrure"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
@@ -75,6 +78,7 @@
             android:layout_marginTop="5dp">
 
             <EditText
+                android:id="@+id/edittext_trc"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerHorizontal="true"
@@ -85,6 +89,7 @@
         </android.support.design.widget.TextInputLayout>
 
         <CheckBox
+            android:id="@+id/checkbox_tmpext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
@@ -98,6 +103,7 @@
             android:layout_marginTop="5dp">
 
             <EditText
+                android:id="@+id/edittext_temp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerHorizontal="true"
@@ -108,6 +114,7 @@
         </android.support.design.widget.TextInputLayout>
 
         <CheckBox
+            android:id="@+id/checkbox_turg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
@@ -115,6 +122,7 @@
             android:text="Turgescence jugulaire"/>
 
         <CheckBox
+            android:id="@+id/checkbox_hepat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
@@ -128,6 +136,7 @@
             android:layout_marginTop="5dp">
 
             <EditText
+                android:id="@+id/edittext_pvc"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerHorizontal="true"
@@ -150,6 +159,7 @@
                 android:text="Diurèse"/>
 
             <Spinner
+                android:id="@+id/spinner_durese"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/durese_array"/>
@@ -169,6 +179,7 @@
                 android:text="Auscultation cardiaque"/>
 
             <Spinner
+                android:id="@+id/spinner_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/cardiac_array"/>

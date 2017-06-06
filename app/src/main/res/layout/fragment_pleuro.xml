@@ -31,6 +31,7 @@
             android:layout_marginTop="5dp">
 
             <EditText
+                android:id="@+id/edittext_fr"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerHorizontal="true"
@@ -53,6 +54,7 @@
                 android:text="Amplitude"/>
 
             <Spinner
+                android:id="@+id/spinner_ampl"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/amplitude_array"/>
@@ -72,6 +74,7 @@
                 android:text="SpO2 (%)"/>
 
             <Spinner
+                android:id="@+id/spinner_spo2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/spo2_array"/>
@@ -85,6 +88,7 @@
             android:layout_marginTop="5dp">
 
             <EditText
+                android:id="@+id/edittext_fio2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_centerHorizontal="true"
@@ -107,13 +111,15 @@
                 android:text="Rythme de respiration"/>
 
             <Spinner
+                android:id="@+id/spinner_rythme"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:entries="@array/spo2_array"/>
+                android:entries="@array/rythme_array"/>
 
         </LinearLayout>
 
         <CheckBox
+            android:id="@+id/checkbox_cyanose"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
@@ -123,6 +129,7 @@
         <!-- TODO : Signes de lutte (Multiple Select Spinner) -->
 
         <CheckBox
+            android:id="@+id/checkbox_sueur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
@@ -153,6 +160,7 @@
                 android:text="Bruit"/>
 
             <Spinner
+                android:id="@+id/spinner_bruit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/bruit_array"/>
@@ -172,6 +180,7 @@
                 android:text="Toux"/>
 
             <Spinner
+                android:id="@+id/spinner_toux"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/toux_array"/>

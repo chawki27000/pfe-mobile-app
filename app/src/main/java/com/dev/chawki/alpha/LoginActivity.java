@@ -50,6 +50,8 @@ public class LoginActivity extends AppCompatActivity {
                 // getting
                 String username = edittext_username.getText().toString();
                 String password = edittext_password.getText().toString();
+                edittext_username.setText("");
+                edittext_password.setText("");
 
                 // AsyncRequest
                 AsyncRequest request = new AsyncRequest();
@@ -65,10 +67,6 @@ public class LoginActivity extends AppCompatActivity {
 
         public final MediaType JSON
                 = MediaType.parse("application/x-www-form-urlencoded");
-
-
-
-
 
         OkHttpClient client = new OkHttpClient();
 
