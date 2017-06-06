@@ -5,46 +5,61 @@
     android:orientation="vertical">
 
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="16dp">
-
-
-        <ImageView
-            android:id="@+id/gender_tv"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:src="@drawable/male"/>
-
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="8dp">
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
 
 
-            <TextView
-                android:id="@+id/type_tv"
+            <ImageView
+                android:id="@+id/gender_tv"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/male"/>
+
+
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="type"
-                android:textSize="18sp"
-                android:textColor="#000"/>
+                android:orientation="vertical"
+                android:layout_marginLeft="8dp">
 
 
-            <TextView
-                android:id="@+id/age_tv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="age"/>
+                <TextView
+                    android:id="@+id/type_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="type"
+                    android:textSize="18sp"
+                    android:textColor="#000"/>
 
+
+                <TextView
+                    android:id="@+id/age_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="age"/>
+
+
+            </LinearLayout>
 
         </LinearLayout>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bcbcbc"/>
+
     </LinearLayout>
+
 
 
 
