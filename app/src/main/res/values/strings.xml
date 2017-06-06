@@ -2,12 +2,13 @@
     <string name="app_name">Alpha</string>
     <string name="title_activity_main">MainActivity</string>
 
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_clinical">ClinicalActivity</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="error_login">"Nom d'utilisateur ou mot de passe erroné"</string>
     <string name="item_logout">Logout</string>
     <string name="drawer_item_settings">Settings</string>
+    <string name="title_activity_splash_actvity">SplashActvity</string>
 
 </resources>
