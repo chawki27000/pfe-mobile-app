@@ -8,10 +8,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 
 public class CaseFragment extends Fragment {
@@ -46,11 +48,15 @@ public class CaseFragment extends Fragment {
     }
 
     private class CaseHolder extends RecyclerView.ViewHolder {
-        public TextView mTitleTextView;
+        public TextView mAgeTV;
+        public TextView mTypeTV;
+        public ImageView mGenderTV;
 
         public CaseHolder(View itemView) {
             super(itemView);
-            mTitleTextView = (TextView) itemView;
+            mAgeTV = (TextView) itemView.findViewById(R.id.age_tv);
+            mTypeTV = (TextView) itemView.findViewById(R.id.type_tv);
+            mGenderTV = (ImageView) itemView.findViewById(R.id.gender_tv);
         }
     }
 
@@ -65,14 +71,27 @@ public class CaseFragment extends Fragment {
         public CaseHolder onCreateViewHolder(ViewGroup parent, int viewType) {
             LayoutInflater layoutInflater = LayoutInflater.from(getActivity());
             View view = layoutInflater
-                    .inflate(android.R.layout.simple_list_item_1, parent, false);
+                    .inflate(R.layout.case_list_item, parent, false);
             return new CaseHolder(view);
         }
 
         @Override
         public void onBindViewHolder(CaseHolder holder, int position) {
             Case aCase = mCases.get(position);
-            holder.mTitleTextView.setText(String.valueOf(aCase.getAge()));
+
+            // Set the age
+            holder.mAgeTV.setText(String.valueOf(aCase.getAge()));
+
+            // Set the type
+            holder.mTypeTV.setText(aCase.getType());
+
+            // Set the gender
+            if(Objects.equals(aCase.getGender(), Case.MALE)) {
+                holder.mGenderTV.setImageResource(R.drawable.male);
+            } else {
+                holder.mGenderTV.setImageResource(R.drawable.female);
+            }
+
         }
 
         @Override
