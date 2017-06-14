@@ -1,4 +1,4 @@
-package com.dev.chawki.alpha;
+package com.dev.chawki.alpha.models;
 
 import java.util.ArrayList;
 

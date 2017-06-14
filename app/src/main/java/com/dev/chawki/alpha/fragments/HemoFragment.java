@@ -1,4 +1,4 @@
-package com.dev.chawki.alpha;
+package com.dev.chawki.alpha.fragments;
 
 
 import android.os.AsyncTask;
@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
+
+import com.dev.chawki.alpha.R;
 
 
 /**

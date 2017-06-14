@@ -1,4 +1,4 @@
-package com.dev.chawki.alpha;
+package com.dev.chawki.alpha.fragments;
 
 
 import android.support.v4.app.Fragment;
@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.dev.chawki.alpha.R;
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.charts.PieChart;

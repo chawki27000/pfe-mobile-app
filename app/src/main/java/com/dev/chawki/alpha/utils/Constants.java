@@ -1,4 +1,4 @@
-package com.dev.chawki.alpha;
+package com.dev.chawki.alpha.utils;
 
 /**
  * Created by chawki on 26/05/17.

@@ -1,4 +1,4 @@
-package com.dev.chawki.alpha;
+package com.dev.chawki.alpha.fragments;
 
 
 import android.os.AsyncTask;
@@ -12,10 +12,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-import okhttp3.FormBody;
+import com.dev.chawki.alpha.R;
+import com.dev.chawki.alpha.fragments.HemoFragment;
+
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
-import okhttp3.RequestBody;
 
 
 /**
@@ -57,13 +58,13 @@ public class InformationFragment extends Fragment {
                 String gender = spinnerGender.getSelectedItem().toString();
 
                 // Begin the transaction
-//                FragmentTransaction ft = getFragmentManager().beginTransaction();
-//                ft.replace(R.id.fragment_placeholder, new HemoFragment());
-//                ft.commit();
+                FragmentTransaction ft = getFragmentManager().beginTransaction();
+                ft.replace(R.id.fragment_placeholder, new HemoFragment());
+                ft.commit();
 
                 // AsyncRequest
-                AsyncTask asyncTask = new AsyncRequest();
-                asyncTask.execute(age, weight, s_age, gender);
+//                AsyncTask asyncTask = new AsyncRequest();
+//                asyncTask.execute(age, weight, s_age, gender);
             }
         });
 

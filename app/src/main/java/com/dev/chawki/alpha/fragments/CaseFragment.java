@@ -1,4 +1,4 @@
-package com.dev.chawki.alpha;
+package com.dev.chawki.alpha.fragments;
 
 
 import android.os.Bundle;
@@ -10,6 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.dev.chawki.alpha.models.Case;
+import com.dev.chawki.alpha.R;
 
 import java.util.ArrayList;
 import java.util.List;

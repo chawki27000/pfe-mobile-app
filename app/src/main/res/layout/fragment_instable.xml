@@ -148,6 +148,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/amelioration_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Amélioration"/>

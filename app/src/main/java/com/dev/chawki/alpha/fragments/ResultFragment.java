@@ -1,4 +1,4 @@
-package com.dev.chawki.alpha;
+package com.dev.chawki.alpha.fragments;
 
 
 import android.os.Bundle;
@@ -8,6 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import com.dev.chawki.alpha.R;
+import com.dev.chawki.alpha.fragments.InstableFragment;
 
 
 public class ResultFragment extends Fragment {

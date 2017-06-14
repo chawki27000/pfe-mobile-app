@@ -13,21 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LoginActivity"
+            android:name=".activities.LoginActivity"
             android:label="LoginActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name=".ClinicalActivity"
+            android:name=".activities.ClinicalActivity"
             android:label="@string/title_activity_clinical"
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
         <activity
-            android:name=".SplashActvity"
+            android:name=".activities.SplashActvity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

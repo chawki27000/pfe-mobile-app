@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.dev.chawki.alpha.SplashActvity"
+    tools:context="com.dev.chawki.alpha.activities.SplashActvity"
     tools:showIn="@layout/activity_splash_actvity"
     android:background="@color/colorPrimaryDark">
 

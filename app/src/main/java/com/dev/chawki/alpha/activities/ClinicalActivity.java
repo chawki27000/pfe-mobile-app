@@ -1,8 +1,11 @@
-package com.dev.chawki.alpha;
+package com.dev.chawki.alpha.activities;
 
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.dev.chawki.alpha.R;
+import com.dev.chawki.alpha.fragments.InformationFragment;
 
 public class ClinicalActivity extends AppCompatActivity {
 
